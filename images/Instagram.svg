@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73.908" height="73.908" viewBox="0 0 73.908 73.908">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.503" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7024c4"/>
+      <stop offset="0.415" stop-color="#c21975"/>
+      <stop offset="0.702" stop-color="#c74c4d"/>
+      <stop offset="1" stop-color="#e09b3d"/>
+    </linearGradient>
+    <filter id="Oval" x="0" y="0" width="73.908" height="73.908" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Instagram" transform="translate(12 8)">
+    <g transform="matrix(1, 0, 0, 1, -12, -8)" filter="url(#Oval)">
+      <circle id="Oval-2" data-name="Oval" cx="24.954" cy="24.954" r="24.954" transform="translate(12 8)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Instagram-2" data-name="Instagram" d="M15.555,22.155H6.6a6.607,6.607,0,0,1-6.6-6.6V6.6A6.607,6.607,0,0,1,6.6,0h8.955a6.607,6.607,0,0,1,6.6,6.6v8.955A6.607,6.607,0,0,1,15.555,22.155ZM6.6,2.229A4.376,4.376,0,0,0,2.229,6.6v8.955A4.376,4.376,0,0,0,6.6,19.926h8.955a4.376,4.376,0,0,0,4.371-4.371V6.6a4.376,4.376,0,0,0-4.371-4.371Zm4.478,14.579a5.73,5.73,0,1,1,5.73-5.73A5.736,5.736,0,0,1,11.078,16.807Zm0-9.231a3.5,3.5,0,1,0,3.5,3.5A3.505,3.505,0,0,0,11.078,7.576Zm5.741-.813a1.373,1.373,0,1,1,1.373-1.373A1.374,1.374,0,0,1,16.818,6.764Z" transform="translate(14.335 13.876)" fill="#fff"/>
+  </g>
+</svg>

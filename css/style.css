@@ -1,0 +1,447 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+header {
+    background: white;
+    box-shadow: 0px .25px 10px rgb(184, 184, 184);
+    z-index: 9;
+}
+.logo {
+    width: 20%;
+    padding: 1%;
+    text-align: center;
+}
+#logoimage {
+    width: 70px;
+    margin-top: 8px;
+    
+}
+nav {
+    width: 71%;
+    padding: 1%;
+}
+.menuList {
+    width: 50%;
+    float: right;
+    margin-right: 3%; 
+    text-align: right;
+    justify-content: center;
+}
+.menuItems {
+    margin-left: 50px;
+    margin-right: 2%;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 20px;
+}
+.herocontainer {
+        position: relative;
+        text-align: center;
+        color: white;
+        z-index: -1;
+}
+.heroImg2 {
+    width: 100%;
+}
+.bottom-left {
+    font-family: Rokkitt, Arial, sans-serif;
+    font-weight: 900;
+    position: absolute;
+    bottom: 150px;
+    left: 8%;
+    color: black;
+    font-size: 55px;
+}
+.hr1 {
+    position: absolute;
+    bottom: 138px;
+    border:none;
+    border-top:1px solid;
+    color:black;
+}
+.subheading {
+    font-family: Chivo-light, Arial, sans-serif;
+    position: absolute;
+    bottom: 90px;
+    left: 8%;
+    color: black;
+    font-size: 30px;
+}
+
+.content {
+    font-family: Chivo-light, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 55%;
+    margin-top: -30px;
+    right: 0;
+    background-color: white;
+    position: absolute;
+    box-shadow: 2px 5px 5px lightgrey;
+    text-align:right;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.hero {
+    width: 100%;
+}
+.portrait {
+    width: 28%;
+    margin-top: -25%;
+    margin-right: 15%;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+.about {
+    padding-left: 45px;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: right;
+    margin-left: auto;
+    line-height: 30px;
+}
+button {
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}    
+.socialIcons {
+    left: 10%;
+    margin-left: 8%;
+    margin-top: 50px;
+    width: 20%;
+    justify-content: space-between;
+}
+.socialIcons img {
+    width: 40px;
+}
+body {
+    background-color: #F8F5F5;
+}
+.button2 {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #373738;
+    width: 100%;
+    margin-top: 130px;
+    height: 350px;
+}
+.footerList1 {
+    width: 40%;
+    display: inline-block;
+    list-style: none;
+    text-align: start;
+    color: white;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+.footerList2 {
+    width: 41%;
+    display: inline-block;
+    list-style: none;
+    text-align: end;
+    margin-top: 50px;
+    margin-right: 5%;
+}
+.footer1element {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 18px;
+
+}
+.footer2element {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 18px;
+}
+.footerIcons {
+    float: right;
+    padding-top: 10px;
+    text-align: end;
+    width: 15%;
+    justify-content: space-between;
+    margin-right: 8%;
+    margin-top: 50px;
+}
+.copyrightText {
+    color: white;
+    margin-top: 50px;
+    padding-top: 15px;
+    margin-left: 8%;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 15px;
+}
+/*-- My UX Skills section coded using CSS flex>*/
+.mySkills {
+    margin-top: 140px;
+}
+.hr3 {
+    border:none;
+    border-top:1px solid;
+    color:black;
+    margin-left: 0%
+}
+.flexContainer {
+    display: flex;
+    flex-direction row;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 30px;
+}
+.skills {
+    width: 33%;
+    padding: 4%;
+    margin: 10px;
+    background-color:white;
+    color:black;
+    border-radius: 15px;
+    box-shadow: 2px 5px 5px lightgrey;
+    font-family: Chivo-light, Helvetica, sans-serif;
+}
+p {
+    font-family: Chivo-light, Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+h2 {
+    font-family: Rokkitt, Arial, sans-serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-left: 8%;
+    color: black;
+    font-size: 40px;
+}
+.myWork {
+    margin-top: 130px;
+}
+.hr2 {
+    border:none;
+    border-top:1px solid;
+    color:black;
+    margin-right: 0%
+}
+.workGrid {
+    margin-top: 40px;
+    display: grid;
+    margin-left: 8%;
+    margin-right: 8%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "workInfo1 workImage1 workImage1"
+    "workInfo2 workImage2 workImage2";
+}
+.workInfo1 {
+    background-color: black;
+    color: white;
+    grid-area: workInfo1;
+    margin-bottom: 20px;
+    padding: 40px;
+    padding-top: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+.workInfo2 {
+    background-color: black;
+    color: white;
+    grid-area: workInfo2;
+    margin-bottom: 20px;
+    padding: 40px;
+    padding-top: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+.myWork h2 {
+    margin-left: 80%;
+}
+.workImage1 {
+    grid-area: workImage1;
+    margin-bottom: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+.workImage2 {
+    grid-area: workImage2;
+    margin-bottom: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+.workImage1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.workImage2 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+h4 {
+    font-size: 30px;
+    font-family: Rokkitt, Arial, sans-serif;;
+}
+.button3 {
+    color: white;
+    background-color: black;
+    border-color: white;
+    padding: 15px;
+}
+.icon{
+    font-size: 36px;
+}
+.viewProjects {
+    text-align: center;
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        
+    }
+    .skills {
+        width: 94%;
+        margin-bottom: 10px;
+        
+    }
+    .bottom-left {
+        bottom: 100px;
+        text-align: start;
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .subheading {
+        bottom: 50px;
+        text-align: start;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .hr1 {
+        width: 75%;
+        bottom: 90px;
+       
+    }
+    .content {
+        width: 94%;
+        margin-top: 40px;
+        margin-left: 3%;
+        margin-right: 3%;
+        position: static;
+        box-shadow: 2px 5px 5px lightgrey;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .about {
+        text-align: left;
+        padding: 20px;
+    }
+   
+    .herocontainer img {
+        height: 300px;
+    }
+    .portrait {
+        display: none;
+    }
+    .workGrid {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "workImage1" 
+        "workImage1"
+        "workInfo1" 
+        "workImage2"
+        "workImage2"
+        "workInfo2";
+        margin-left: 3%;
+        margin-right: 3%;
+        height: 1200px;
+    }
+    .workInfo1 {
+        margin-bottom: 20px;
+        padding-top: 0px;
+        margin-top: 0px;
+        box-shadow: 2px 5px 5px lightgrey;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+    }
+    .workInfo2 {
+        margin-bottom: 20px;
+        padding-top: 20px;
+        margin-top: 0px;
+        box-shadow: 2px 5px 5px lightgrey;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 20px;
+    }
+    .workImage1 {
+        margin-bottom: 0px;
+        box-shadow: 0px 0px 0px lightgrey;
+    }
+    .workImage2 {
+        margin-bottom: 0px;
+        box-shadow: 0px 0px 0px lightgrey;
+    }
+    .workImage2 img {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 20px;
+    }
+    .workImage1 img {
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 20px;
+    }
+    .myWork h2 {
+        margin-left: 8%;
+    }
+    .hr2 {
+        float: left;
+    }
+    .socialIcons {
+        display: inline-block;
+        width: 100%;
+    }
+    .footerIcons {
+        display: inline-block;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer {
+        height: 350px;
+    }
+    .footerList1 {
+        width: 30%;
+        margin-left: 1%;
+    }
+    .footerList2 {
+        width: 33%;
+        margin-right: 2%;
+    }
+    .copyrightText {
+        text-align: end;
+        margin-right: 10%;
+    }
+    #logoimage {
+        margin: 20px;
+    }
+}
