@@ -17,6 +17,11 @@ header {
     margin-top: 8px;
     
 }
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 nav {
     width: 71%;
     padding: 1%;
@@ -36,6 +41,7 @@ nav {
 }
 .herocontainer {
         position: relative;
+        margin-top: 80px;
         text-align: center;
         color: white;
         z-index: -1;
@@ -106,7 +112,7 @@ button {
     border: 1px solid black;
     margin-top: 10px;
     margin-bottom: 10px;
-}    
+}  
 .socialIcons {
     left: 10%;
     margin-left: 8%;
@@ -444,4 +450,24 @@ h4 {
     #logoimage {
         margin: 20px;
     }
+}
+
+.fadeinleft {
+    opacity: 0;
+    margin-left: -300px;
+    max-width: 100%;
+}
+.fadeonload {
+    opacity: 0;
+    margin-left: -300px;
+    max-width: 100%;
+}
+
+
+
+.fadein {
+    opacity: 0;
+}
+.fade-in.appear {
+    opacity: 1;
 }
