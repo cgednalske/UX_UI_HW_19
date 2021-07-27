@@ -1,4 +1,4 @@
-$(".button2").hover(function () {
+/* $(".button2").hover(function () {
     $(this).css("background-color", "black");
     $(this).css("color", "white");
     $(this).css("border-radius", "20px");
@@ -8,6 +8,18 @@ $(".button2").hover(function () {
     $(this).css("border-radius", "0px");
     
 });
+*/
+$(".button2").hover(function () {
+    $(this).css("background-color", "#FFBB7A");
+    $(this).css("color", "black");
+    $(this).css("border-color", "black")
+}, function () {
+    $(this).css("background-color", "black");
+    $(this).css("color", "white");
+    $(this).css("border-color", "white")
+});
+
+
 $(".button3").hover(function () {
     $(this).css("background-color", "#FFBB7A");
     $(this).css("color", "black");
